@@ -80,3 +80,6 @@ follow:
   - class: icon-google-plus
     url: https://plus.google.com/
   
+disqus:
+    id: rainstops
+    config: true
