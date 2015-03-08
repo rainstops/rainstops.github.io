@@ -83,3 +83,11 @@ follow:
 disqus:
     id: rainstops
     config: true
+
+googleAnaly:
+    id: UA-60488896-1
+    config: true
+
+baiduTongji:
+    id: 6b7138347d11c7f7f5838bb74857f09c
+    config: true
