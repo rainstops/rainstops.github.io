@@ -48,7 +48,7 @@ a         { color: #91736b; text-decoration: none; }
     height: 120px;
 }
 .header {
-    width: 960px;
+    width: 85%;
     height: 120px;
     margin: 0 auto;
 }
@@ -80,7 +80,7 @@ a         { color: #91736b; text-decoration: none; }
     background-position: 0 0;
 }
 .nav {
-    width: 610px;
+    width: 85%;
     padding-top: 82px;
     height: 30px;
     float: left;
@@ -106,7 +106,7 @@ a         { color: #91736b; text-decoration: none; }
 }
 .follow {
     float: left;
-    width: 270px;
+    width: 180px;
     padding-top: 80px;
     height: 30px;
     text-align: center;
@@ -136,34 +136,41 @@ a         { color: #91736b; text-decoration: none; }
 }
 .container {
     position: relative;
-    width: 960px;
+    width: 85%;
     height: auto;
+    min-width: 960px;
     min-height: 500px;
     margin: 0 auto;
 }
 
 .main {
     float: left;
-    width: 600px;
-    padding: 40px 30px;
-    min-height: 600px;
+    width: 70%;
+    padding: 30px 30px;
+    min-width: 600px;
+    min-height: 450px;
     height: auto;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
-    background: #e3ded8 url(../images/cnt-top.jpg) repeat-x 0 0;
+    background: #ffffff;
 }
 
 .main .article {
     line-height: 1.6;
     position: relative;
     margin-bottom: 40px;
+    font-family: Arial;
 }
 .main .article h1 { font-size: 22px; color: #4d4d4d; }
 .main .article h2 { font-size: 20px; color: #4d4d4d; }
-.main .article h3 { font-size: 18px; color: #4d4d4d; }
-.main .article h4 { font-size: 16px; color: #4d4d4d; }
+.main .article h3 { margin-top: 8px; font-size: 18px; color: #4d4d4d; }
+.main .article h4 { margin-top: 8px; font-size: 16px; color: #4d4d4d; }
 .main .article h5 { color: #4d4d4d; }
 .main .article h6 { color: #4d4d4d; }
-
+.main .article hr { 
+    height:1px;
+    border:none; 
+    border-top:1px dashed rgba(86, 86, 86, 0.5); 
+}
 .main .article .title {
     font-size: 24px;
     line-height: 32px;
@@ -179,7 +186,7 @@ a         { color: #91736b; text-decoration: none; }
 }
 .main .article p {
     line-height: 1.6;
-    color: #565656;
+    color: #000000;
 }
 .main .article ul, .main .article ol {
     list-style-type: disc;
@@ -188,6 +195,9 @@ a         { color: #91736b; text-decoration: none; }
 }
 .main .article li {
      line-height: 24px;
+}
+.main .article a {
+    color: #049ff1;
 }
 .main .article a:hover {
     border-bottom: 3px double rgba(0, 0, 0, 0.1);
@@ -629,17 +639,17 @@ a         { color: #91736b; text-decoration: none; }
 }
 
 .aside {
-    padding: 20px 20px 40px 20px;
+    padding: 20px 10px 40px 10px;
     margin-top: 26px;
     float: left;
     background: #f2eeec url(../images/aside-bg.jpg) no-repeat 0px 0px;
-    width: 240px;
+    width: 200px;
     min-height: 500px;
     height: auto;
     box-shadow:  3px 3px 6px rgba(0, 0, 0, 0.1), 1px 0 4px rgba(0, 0, 0, 0.3) inset;
 }
 .aside-contact {
-    width: 220px;
+    width: 180px;
     height: auto;
     padding: 10px 10px;
     border-radius: 5px 5px;
@@ -729,7 +739,7 @@ a         { color: #91736b; text-decoration: none; }
     height: 100px;
 }
 .footer {
-    width: 960px;
+    width: 85%;
     padding-top: 20px;
     height: 80px;
     margin: 0 auto;
