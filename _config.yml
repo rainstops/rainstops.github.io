@@ -67,8 +67,8 @@ author:
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
-  - class: icon-rss
-    url: /atom.xml
+    #  - class: icon-rss
+    #url: /atom.xml
   - class: icon-weibo
     url: http://weibo.com/
   - class: icon-facebook
@@ -80,6 +80,12 @@ follow:
   - class: icon-google-plus
     url: https://plus.google.com/
   
+customLinks:
+  - item:
+    - text: coderrobin
+      url: http://www.coderrobin.com/
+    message: Friends
+
 disqus:
     id: rainstops
     config: true
